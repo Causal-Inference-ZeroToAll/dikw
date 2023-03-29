@@ -1,6 +1,6 @@
 import pandas as pd
 from numpy import isclose
-from causalml.metrics.visualize import qini_score
+from info.metrics.visualize import qini_score
 
 
 def test_qini_score():

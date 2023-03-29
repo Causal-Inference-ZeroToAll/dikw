@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from causalml.match import NearestNeighborMatch, MatchOptimizer
-from causalml.propensity import ElasticNetPropensityModel
+from info.match import NearestNeighborMatch, MatchOptimizer
+from info.propensity import ElasticNetPropensityModel
 from .const import RANDOM_SEED, TREATMENT_COL, SCORE_COL, GROUP_COL
 
 

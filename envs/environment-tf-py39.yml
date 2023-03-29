@@ -1,4 +1,4 @@
-name: causalml-tf-py39
+name: info-tf-py39
 channels:
   - defaults
 dependencies:
@@ -140,4 +140,4 @@ dependencies:
     - widgetsnbextension==3.5.1
     - wrapt==1.12.1
     - xgboost==1.4.1
-    - causalml[tf]>=0.10.0
+    - info[tf]>=0.10.0

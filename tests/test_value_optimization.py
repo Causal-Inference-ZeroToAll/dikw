@@ -4,11 +4,11 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-from causalml.dataset import make_uplift_classification
-from causalml.inference.meta import BaseTClassifier
-from causalml.optimize.value_optimization import CounterfactualValueEstimator
-from causalml.optimize.utils import get_treatment_costs
-from causalml.optimize.utils import get_actual_value
+from info.dataset import make_uplift_classification
+from info.inference.meta import BaseTClassifier
+from info.optimize.value_optimization import CounterfactualValueEstimator
+from info.optimize.utils import get_treatment_costs
+from info.optimize.utils import get_actual_value
 
 
 from tests.const import RANDOM_SEED

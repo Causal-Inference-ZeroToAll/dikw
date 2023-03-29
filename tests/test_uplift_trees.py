@@ -6,8 +6,8 @@ import pstats
 from joblib import parallel_backend
 from sklearn.model_selection import train_test_split
 
-from causalml.inference.tree import UpliftTreeClassifier, UpliftRandomForestClassifier
-from causalml.metrics import get_cumgain
+from info.inference.tree import UpliftTreeClassifier, UpliftRandomForestClassifier
+from info.metrics import get_cumgain
 
 from .const import RANDOM_SEED, N_SAMPLE, CONTROL_NAME, TREATMENT_NAMES, CONVERSION
 

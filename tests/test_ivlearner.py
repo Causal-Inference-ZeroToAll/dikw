@@ -6,8 +6,8 @@ import statsmodels.api as sm
 from xgboost import XGBRegressor
 import warnings
 
-from causalml.inference.iv import BaseDRIVLearner
-from causalml.metrics import ape, get_cumgain
+from info.inference.iv import BaseDRIVLearner
+from info.metrics import ape, get_cumgain
 
 from .const import RANDOM_SEED, N_SAMPLE, ERROR_THRESHOLD, CONTROL_NAME, CONVERSION
 

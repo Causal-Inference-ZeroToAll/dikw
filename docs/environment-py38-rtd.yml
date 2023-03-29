@@ -1,4 +1,4 @@
-name: causalml-rtd-py38
+name: info-rtd-py38
 channels:
   - conda-forge
   - defaults

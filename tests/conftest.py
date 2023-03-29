@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from causalml.dataset import synthetic_data
-from causalml.dataset import make_uplift_classification
+from info.dataset import synthetic_data
+from info.dataset import make_uplift_classification
 
 from .const import RANDOM_SEED, N_SAMPLE, TREATMENT_NAMES, CONVERSION
 

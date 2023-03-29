@@ -1,4 +1,4 @@
-name: causalml-py37
+name: info-py37
 channels:
   - defaults
 dependencies:
@@ -134,4 +134,4 @@ dependencies:
     - widgetsnbextension==3.5.1
     - wrapt==1.12.1
     - xgboost==1.4.1
-    - causalml>=0.10.0
+    - info>=0.10.0

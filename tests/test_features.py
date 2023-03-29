@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from causalml.features import OneHotEncoder, LabelEncoder, load_data
+from info.features import OneHotEncoder, LabelEncoder, load_data
 
 
 @pytest.fixture

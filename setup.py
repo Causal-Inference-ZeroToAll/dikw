@@ -15,7 +15,7 @@ except ImportError:
     dist.Distribution().fetch_build_eggs(["numpy"])
     from numpy import get_include as np_get_include
 
-import causalml
+import info
 
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
@@ -28,22 +28,22 @@ with open("requirements-test.txt") as f:
 
 extensions = [
     Extension(
-        "causalml.inference.tree.causal._criterion",
-        ["causalml/inference/tree/causal/_criterion.pyx"],
+        "info.inference.tree.causal._criterion",
+        ["info/inference/tree/causal/_criterion.pyx"],
         libraries=[],
         include_dirs=[np_get_include()],
         extra_compile_args=["-O3"],
     ),
     Extension(
-        "causalml.inference.tree.causal._builder",
-        ["causalml/inference/tree/causal/_builder.pyx"],
+        "info.inference.tree.causal._builder",
+        ["info/inference/tree/causal/_builder.pyx"],
         libraries=[],
         include_dirs=[np_get_include()],
         extra_compile_args=["-O3"],
     ),
     Extension(
-        "causalml.inference.tree.uplift",
-        ["causalml/inference/tree/uplift.pyx"],
+        "info.inference.tree.uplift",
+        ["info/inference/tree/uplift.pyx"],
         libraries=[],
         include_dirs=[np_get_include()],
         extra_compile_args=["-O3"],
@@ -53,8 +53,8 @@ extensions = [
 packages = find_packages(exclude=["tests", "tests.*"])
 
 setup(
-    name="causalml",
-    version=causalml.__version__,
+    name="info",
+    version=info.__version__,
     author="Huigang Chen, Totte Harinen, Jeong-Yoon Lee, Yuchen Luo, Jing Pan, Mike Yung, Zhenyu Zhao",
     author_email="",
     description="Python Package for Uplift Modeling and Causal Inference with Machine Learning Algorithms",

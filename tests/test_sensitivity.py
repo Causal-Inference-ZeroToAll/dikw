@@ -2,18 +2,18 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-from causalml.dataset import synthetic_data
-from causalml.inference.meta import BaseXLearner
-from causalml.metrics.sensitivity import Sensitivity
-from causalml.metrics.sensitivity import (
+from info.dataset import synthetic_data
+from info.inference.meta import BaseXLearner
+from info.metrics.sensitivity import Sensitivity
+from info.metrics.sensitivity import (
     SensitivityPlaceboTreatment,
     SensitivityRandomCause,
 )
-from causalml.metrics.sensitivity import (
+from info.metrics.sensitivity import (
     SensitivityRandomReplace,
     SensitivitySelectionBias,
 )
-from causalml.metrics.sensitivity import (
+from info.metrics.sensitivity import (
     one_sided,
     alignment,
     one_sided_att,

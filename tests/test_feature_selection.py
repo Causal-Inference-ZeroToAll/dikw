@@ -1,5 +1,5 @@
 import numpy as np
-from causalml.feature_selection.filters import FilterSelect
+from info.feature_selection.filters import FilterSelect
 
 from .const import RANDOM_SEED, CONVERSION
 
