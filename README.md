@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <a href="https://github.com/uber/causalml"><img width="380px" height="140px" src="https://raw.githubusercontent.com/Causal-Inference-ZeroToAll/dikw/master/docs/_static/img/dikw.png"></a>
+  <a href="https://github.com/uber/causalml"><img src="https://raw.githubusercontent.com/Causal-Inference-ZeroToAll/dikw/master/docs/_static/img/dikw.png"></a>
 </div>
 
 
