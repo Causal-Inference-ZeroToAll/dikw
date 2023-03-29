@@ -1,0 +1,1 @@
+from .toy import generate_text
