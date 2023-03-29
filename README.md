@@ -1,6 +1,11 @@
 # dikw 工具包 - 你的因果问题解决神器
 
 
+<div align="center">
+  <a href="https://github.com/uber/causalml"><img width="380px" height="140px" src="https://raw.githubusercontent.com/uber/causalml/master/docs/_static/img/dikw.png"></a>
+</div>
+
+
 为因果推理而生的DIKW工具包，它旨在成为最具个性化、用户友好的回答因果问题的专业工具。DIKW工具包的框架设计灵活可扩展，允许开发者轻松快捷地定制因果推理算法。作为一款融合了深度学习和深度概率编程技术的工具，DIKW工具包力求成为一个Causal ChatGPT，以满足不同场景下的因果关系挖掘需求。
 
 特点：
