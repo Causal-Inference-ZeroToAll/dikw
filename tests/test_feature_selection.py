@@ -1,5 +1,5 @@
 import numpy as np
-from info.feature_selection.filters import FilterSelect
+from dikw.feature_selection.filters import FilterSelect
 
 from .const import RANDOM_SEED, CONVERSION
 

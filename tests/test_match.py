@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from info.match import NearestNeighborMatch, MatchOptimizer
-from info.propensity import ElasticNetPropensityModel
+from dikw.match import NearestNeighborMatch, MatchOptimizer
+from dikw.propensity import ElasticNetPropensityModel
 from .const import RANDOM_SEED, TREATMENT_COL, SCORE_COL, GROUP_COL
 
 

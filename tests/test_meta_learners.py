@@ -8,30 +8,30 @@ from xgboost import XGBRegressor
 from xgboost import XGBClassifier
 from sklearn.ensemble import RandomForestRegressor
 
-from info.dataset import synthetic_data
-from info.inference.meta import (
+from dikw.dataset import synthetic_data
+from dikw.inference.meta import (
     BaseSLearner,
     BaseSRegressor,
     BaseSClassifier,
     LRSRegressor,
 )
-from info.inference.meta import (
+from dikw.inference.meta import (
     BaseTLearner,
     BaseTRegressor,
     BaseTClassifier,
     XGBTRegressor,
     MLPTRegressor,
 )
-from info.inference.meta import BaseXLearner, BaseXClassifier, BaseXRegressor
-from info.inference.meta import (
+from dikw.inference.meta import BaseXLearner, BaseXClassifier, BaseXRegressor
+from dikw.inference.meta import (
     BaseRLearner,
     BaseRClassifier,
     BaseRRegressor,
     XGBRRegressor,
 )
-from info.inference.meta import TMLELearner
-from info.inference.meta import BaseDRLearner
-from info.metrics import ape, get_cumgain
+from dikw.inference.meta import TMLELearner
+from dikw.inference.meta import BaseDRLearner
+from dikw.metrics import ape, get_cumgain
 
 from .const import RANDOM_SEED, N_SAMPLE, ERROR_THRESHOLD, CONTROL_NAME, CONVERSION
 

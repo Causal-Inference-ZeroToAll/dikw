@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from info.features import OneHotEncoder, LabelEncoder, load_data
+from dikw.features import OneHotEncoder, LabelEncoder, load_data
 
 
 @pytest.fixture

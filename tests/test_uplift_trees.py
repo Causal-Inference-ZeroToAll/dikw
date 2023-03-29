@@ -6,8 +6,8 @@ import pstats
 from joblib import parallel_backend
 from sklearn.model_selection import train_test_split
 
-from info.inference.tree import UpliftTreeClassifier, UpliftRandomForestClassifier
-from info.metrics import get_cumgain
+from dikw.inference.tree import UpliftTreeClassifier, UpliftRandomForestClassifier
+from dikw.metrics import get_cumgain
 
 from .const import RANDOM_SEED, N_SAMPLE, CONTROL_NAME, TREATMENT_NAMES, CONVERSION
 

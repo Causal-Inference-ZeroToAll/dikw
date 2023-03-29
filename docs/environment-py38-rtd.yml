@@ -1,4 +1,4 @@
-name: info-rtd-py38
+name: dikw-rtd-py38
 channels:
   - conda-forge
   - defaults

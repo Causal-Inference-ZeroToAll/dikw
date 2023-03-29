@@ -1,4 +1,4 @@
-name: info-py37
+name: dikw-py37
 channels:
   - defaults
 dependencies:
@@ -134,4 +134,4 @@ dependencies:
     - widgetsnbextension==3.5.1
     - wrapt==1.12.1
     - xgboost==1.4.1
-    - info>=0.10.0
+    - dikw>=0.10.0

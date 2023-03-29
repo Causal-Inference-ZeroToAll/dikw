@@ -2,18 +2,18 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-from info.dataset import synthetic_data
-from info.inference.meta import BaseXLearner
-from info.metrics.sensitivity import Sensitivity
-from info.metrics.sensitivity import (
+from dikw.dataset import synthetic_data
+from dikw.inference.meta import BaseXLearner
+from dikw.metrics.sensitivity import Sensitivity
+from dikw.metrics.sensitivity import (
     SensitivityPlaceboTreatment,
     SensitivityRandomCause,
 )
-from info.metrics.sensitivity import (
+from dikw.metrics.sensitivity import (
     SensitivityRandomReplace,
     SensitivitySelectionBias,
 )
-from info.metrics.sensitivity import (
+from dikw.metrics.sensitivity import (
     one_sided,
     alignment,
     one_sided_att,

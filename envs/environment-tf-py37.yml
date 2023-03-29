@@ -1,4 +1,4 @@
-name: info-tf-py37
+name: dikw-tf-py37
 channels:
   - defaults
 dependencies:
@@ -140,4 +140,4 @@ dependencies:
     - widgetsnbextension==3.5.1
     - wrapt==1.12.1
     - xgboost==1.4.1
-    - info[tf]>=0.10.0
+    - dikw[tf]>=0.10.0

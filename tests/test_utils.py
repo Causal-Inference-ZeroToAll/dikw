@@ -1,5 +1,5 @@
 import numpy as np
-from info.inference.meta.utils import get_weighted_variance
+from dikw.inference.meta.utils import get_weighted_variance
 
 
 def test_weighted_variance():

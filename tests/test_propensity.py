@@ -1,9 +1,9 @@
-from info.propensity import (
+from dikw.propensity import (
     ElasticNetPropensityModel,
     GradientBoostedPropensityModel,
     LogisticRegressionPropensityModel,
 )
-from info.metrics import roc_auc_score
+from dikw.metrics import roc_auc_score
 
 
 from .const import RANDOM_SEED

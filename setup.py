@@ -15,7 +15,7 @@ except ImportError:
     dist.Distribution().fetch_build_eggs(["numpy"])
     from numpy import get_include as np_get_include
 
-import info
+import dikw
 
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
@@ -28,22 +28,22 @@ with open("requirements-test.txt") as f:
 
 extensions = [
     Extension(
-        "info.inference.tree.causal._criterion",
-        ["info/inference/tree/causal/_criterion.pyx"],
+        "dikw.inference.tree.causal._criterion",
+        ["dikw/inference/tree/causal/_criterion.pyx"],
         libraries=[],
         include_dirs=[np_get_include()],
         extra_compile_args=["-O3"],
     ),
     Extension(
-        "info.inference.tree.causal._builder",
-        ["info/inference/tree/causal/_builder.pyx"],
+        "dikw.inference.tree.causal._builder",
+        ["dikw/inference/tree/causal/_builder.pyx"],
         libraries=[],
         include_dirs=[np_get_include()],
         extra_compile_args=["-O3"],
     ),
     Extension(
-        "info.inference.tree.uplift",
-        ["info/inference/tree/uplift.pyx"],
+        "dikw.inference.tree.uplift",
+        ["dikw/inference/tree/uplift.pyx"],
         libraries=[],
         include_dirs=[np_get_include()],
         extra_compile_args=["-O3"],
@@ -53,8 +53,8 @@ extensions = [
 packages = find_packages(exclude=["tests", "tests.*"])
 
 setup(
-    name="info",
-    version=info.__version__,
+    name="dikw",
+    version=dikw.__version__,
     author="Huigang Chen, Totte Harinen, Jeong-Yoon Lee, Yuchen Luo, Jing Pan, Mike Yung, Zhenyu Zhao",
     author_email="",
     description="Python Package for Uplift Modeling and Causal Inference with Machine Learning Algorithms",

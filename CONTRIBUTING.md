@@ -7,8 +7,8 @@ The codebase is hosted on Github at https://github.com/uber/causalml.
 
 We use [`black`](https://black.readthedocs.io/en/stable/index.html) as a formatter to keep the coding style and format across all Python files consistent and compliant with [PEP8](https://www.python.org/dev/peps/pep-0008/). We recommend that you add `black` to your IDE as a formatter (see the [instruction](https://black.readthedocs.io/en/stable/integrations/editors.html)) or run `black` on the command line before submitting a PR as follows:
 ```bash
-# move to the top directory of the info repository
-$ cd info 
+# move to the top directory of the dikw repository
+$ cd dikw 
 $ pip install -U black
 $ black .
 ```
@@ -80,7 +80,7 @@ $ python setup.py build_ext --inplace
 
 Before submitting a PR, make sure the change to pass all tests and test coverage to be at least 70%.
 ```bash
-$ pytest -vs tests/ --cov info/
+$ pytest -vs tests/ --cov dikw/
 ```
 
 You can also run tests via make:

@@ -1,9 +1,9 @@
 import pandas as pd
 import torch
 
-from info.inference.nn import CEVAE
-from info.dataset import simulate_hidden_confounder
-from info.metrics import get_cumgain
+from dikw.inference.nn import CEVAE
+from dikw.dataset import simulate_hidden_confounder
+from dikw.metrics import get_cumgain
 
 
 def test_CEVAE():

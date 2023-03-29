@@ -1,17 +1,17 @@
 import pytest
 
-from info.dataset import (
+from dikw.dataset import (
     simulate_nuisance_and_easy_treatment,
     simulate_hidden_confounder,
     simulate_randomized_trial,
 )
-from info.dataset import (
+from dikw.dataset import (
     get_synthetic_preds,
     get_synthetic_summary,
     get_synthetic_auuc,
 )
-from info.dataset import get_synthetic_preds_holdout, get_synthetic_summary_holdout
-from info.inference.meta import LRSRegressor, XGBTRegressor
+from dikw.dataset import get_synthetic_preds_holdout, get_synthetic_summary_holdout
+from dikw.inference.meta import LRSRegressor, XGBTRegressor
 
 
 @pytest.mark.parametrize(
