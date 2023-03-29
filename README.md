@@ -57,8 +57,8 @@ DIKW工具包适用于各种场景，包括但不限于：
 ## Install from source:
 
 ```
-$ git clone https://github.com/uber/causalml.git
-$ cd causalml
+$ git clone https://github.com/Causal-Inference-ZeroToAll/dikw.git
+$ cd dikw
 $ pip install -r requirements.txt
 $ python setup.py build_ext --inplace
 $ python setup.py install
